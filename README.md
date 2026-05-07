@@ -3,7 +3,6 @@
 [![Docker](https://img.shields.io/badge/Docker-ready-blue)](https://www.docker.com/)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-deployed-blue)](https://kubernetes.io/)
 [![SonarQube](https://img.shields.io/badge/SonarQube-quality-green)](https://www.sonarqube.org/)
-
 Demonstrates an end‑to‑end **CI/CD pipeline** using **GitHub Actions**, **Docker**, **SonarQube**, and **Kubernetes**.  
 Automates build, quality checks, containerization, and deployment to a cluster — showcasing modern DevOps practices.
 
