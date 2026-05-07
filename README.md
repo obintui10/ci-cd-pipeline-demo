@@ -33,8 +33,9 @@ docker run -p 8080:80 ci-cd-demo
 
 # Access app
 http://localhost:8080
-```
+
 ## 🏗 Architecture Diagram (Box Style)
+```bash
 +---------------------------+          +---------------------------+
 |       GitHub Actions      |  ----->  |       Docker Build        |
 |  CI/CD pipeline triggers  |          |  Build container image    |
@@ -67,7 +68,7 @@ http://localhost:8080
                                     |  Runs on port 80          |
                                     |  Accessible via browser    |
                                     +---------------------------+
-
+```
 ## 🔄 Workflow
 - Code Commit → triggers GitHub Actions.
 - Build & Test → Docker image created.
