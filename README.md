@@ -10,6 +10,7 @@
 
 ---
 ## 📂 Repository Structure
+```text
 ci-cd-pipeline-demo/
 ├── .github/workflows/ci-cd.yml   # GitHub Actions pipeline
 ├── my-app/                       # Demo application (HTML/CSS/JS)
