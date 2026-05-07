@@ -1,7 +1,7 @@
 # CI/CD Pipeline Demo 🚀
 
-> End-to-end CI/CD pipeline demo using **GitHub Actions**, **Docker**, **SonarQube**, and **Kubernetes**.  
-> Automates build, code quality scan, containerization, and deployment workflow.
+Demonstrates an end‑to‑end **CI/CD pipeline** using **GitHub Actions**, **Docker**, **SonarQube**, and **Kubernetes**.  
+Automates build, quality checks, containerization, and deployment to a cluster — showcasing modern DevOps practices.
 
 [![CI/CD Pipeline](https://github.com/obintui10/ci-cd-pipeline-demo/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/obintui10/ci-cd-pipeline-demo/actions/workflows/ci-cd.yml)
 [![Docker](https://img.shields.io/badge/Docker-ready-blue)](https://www.docker.com/)
