@@ -81,11 +81,12 @@ http://localhost:8080
 ## 📊 Mermaid Diagram
 ```mermaid
 flowchart LR
-    A[GitHub Actions] --> B[Docker Build]
-    B --> C[SonarQube Scan]
-    C --> D[Push to Docker Hub]
-    D --> E[Kubernetes Deployment]
-    E --> F[Demo App Running on Port 80]
+    A["GitHub Actions\n(CI/CD trigger)"] --> B["Docker Build\n(Container image build)"]
+    B --> C["SonarQube Scan\n(Code quality & security)"]
+    C --> D["Push to Docker Hub\n(Publish image to registry)"]
+    D --> E["Kubernetes Deployment\n(Apply manifests to cluster)"]
+    E --> F["Demo App (Nginx)\nRunning on Port 80"]
+
 ```
 ## 🔮 Future Work
 - Add Helm charts for Kubernetes packaging.
