@@ -68,7 +68,7 @@ http://localhost:8080
                                     |  Runs on port 80          |
                                     |  Accessible via browser    |
                                     +---------------------------+
-```
+
 ## 🔄 Workflow
 - Code Commit → triggers GitHub Actions.
 - Build & Test → Docker image created.
