@@ -36,7 +36,7 @@ docker run -p 8080:80 ci-cd-demo
 http://localhost:8080
 
 ## 🏗 Architecture Diagram (Box Style)
-```markdown
+
 +---------------------------+          +---------------------------+
 |       GitHub Actions      |  ----->  |       Docker Build        |
 |  CI/CD pipeline triggers  |          |  Build container image    |
